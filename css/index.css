@@ -106,7 +106,6 @@ section {
 }
 body {
   line-height: 1;
-  background: red;
 }
 ol,
 ul {
@@ -134,4 +133,27 @@ table {
 html,
 body {
   height: 100%;
+}
+/* Container and my code starts here */
+/* Color Variables */
+/* General */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 1.3rem;
+  margin: 0 10px 0;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #E9EBD9;
+  font-family: 'montserrat', sans-serif;
+}
+header {
+  margin: 1rem;
+  border-bottom: 2px dotted #737564;
+  padding: 1rem;
 }
