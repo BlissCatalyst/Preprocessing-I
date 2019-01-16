@@ -163,9 +163,11 @@ header {
   border-bottom: 5px dotted #737564;
   margin-bottom: 20px;
 }
+/* Modual template changes width and background */
 .progress {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .progress .modual {
   width: 48%;
@@ -174,6 +176,34 @@ header {
   border: 5px dotted #737564;
 }
 .progress .modual h2 {
+  font-weight: bold;
+  text-align: center;
+  background: #A1A48C;
+  color: #E6EBC7;
+  padding: 5px;
+}
+.experience {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 20px;
+  background: #E2EBA4;
+  border: 5px dotted #737564;
+}
+.experience h2 {
+  font-weight: bold;
+  text-align: center;
+  background: #A1A48C;
+  color: #E2EBA4;
+  padding: 5px;
+}
+.hobbies {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 20px;
+  background: #E6EBC7;
+  border: 5px dotted #737564;
+}
+.hobbies h2 {
   font-weight: bold;
   text-align: center;
   background: #A1A48C;

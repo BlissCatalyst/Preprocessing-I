@@ -97,15 +97,21 @@ header {
 	margin-bottom: 20px;
 }
 
+/* Modual template changes width and background */
+.modTemplate(@wide, @color) {
+	width: @wide;
+	padding: 20px;
+	background: @color;
+	border: 5px dotted @dividerColor;
+}
+
 .progress {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 20px;
 
 	.modual {
-		width: 48%;
-		padding: 20px;
-		background: @modual-bg1;
-		border: 5px dotted @dividerColor;
+		.modTemplate(48%, @modual-bg1);
 
 		h2 {
 			font-weight: bold;
@@ -114,5 +120,31 @@ header {
 			color: @modual-bg1;
 			padding: 5px;
 		}
+	}
+}
+
+.experience {
+	margin-bottom: 20px;
+	.modTemplate(100%, @modual-bg2);
+
+	h2 {
+		font-weight: bold;
+		text-align: center;
+		background: #A1A48C;
+		color: @modual-bg2;
+		padding: 5px;
+	}
+}
+
+.hobbies {
+	margin-bottom: 20px;
+	.modTemplate(100%, @modual-bg1);
+
+	h2 {
+		font-weight: bold;
+		text-align: center;
+		background: #A1A48C;
+		color: @modual-bg1;
+		padding: 5px;
 	}
 }
