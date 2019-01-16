@@ -198,6 +198,9 @@ header {
   padding: 0 20px;
   border-left: 1px solid #737564;
 }
+.experience .jobs .job:first-child {
+  border: none;
+}
 .experience h2 {
   text-align: center;
   background: #A1A48C;
