@@ -57,7 +57,7 @@ html, body {
     height: 100%;
 }
 
-/* Container and my code starts here */
+/* my code starts here */
 
 /* Color Variables */
 @container-bg:	#E9EBD9;
@@ -84,7 +84,6 @@ li {
 	list-style-type: disc;
 }
 
-/* moduals containing the text */
 .container {
 	max-width: 800px;
 	margin: 0 auto;
@@ -127,20 +126,42 @@ header {
 	margin-bottom: 20px;
 	.modTemplate(100%, @modual-bg2);
 
+	.jobs {
+		display: flex;
+		justify-content: space-between;
+
+		.job {
+			width: 265px;
+			padding: 0 20px;
+			border-left: 1px solid @dividerColor;
+		}
+	}
+
 	h2 {
 		text-align: center;
 		background: #A1A48C;
 		color: @modual-bg2;
 		padding: 5px;
 	}
-
-	h3 {
-	}
 }
 
 .education {
 	margin-bottom: 20px;
 	.modTemplate(100%, @modual-bg1);
+
+	.schools {
+		display: flex;
+		justify-content: space-between;
+
+		.school {
+			width: 265px;
+			padding: 0 20px;
+			border-left: 1px solid @dividerColor;
+		}
+		.school:first-child {
+			border: none;
+		}
+	}
 
 	h2 {
 		text-align: center;

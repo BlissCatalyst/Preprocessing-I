@@ -134,7 +134,7 @@ html,
 body {
   height: 100%;
 }
-/* Container and my code starts here */
+/* my code starts here */
 /* Color Variables */
 /* General */
 h1 {
@@ -153,7 +153,6 @@ li {
   margin: 10px 25px;
   list-style-type: disc;
 }
-/* moduals containing the text */
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -190,6 +189,15 @@ header {
   background: #E2EBA4;
   border: 5px dotted #737564;
 }
+.experience .jobs {
+  display: flex;
+  justify-content: space-between;
+}
+.experience .jobs .job {
+  width: 265px;
+  padding: 0 20px;
+  border-left: 1px solid #737564;
+}
 .experience h2 {
   text-align: center;
   background: #A1A48C;
@@ -202,6 +210,18 @@ header {
   padding: 20px;
   background: #E6EBC7;
   border: 5px dotted #737564;
+}
+.education .schools {
+  display: flex;
+  justify-content: space-between;
+}
+.education .schools .school {
+  width: 265px;
+  padding: 0 20px;
+  border-left: 1px solid #737564;
+}
+.education .schools .school:first-child {
+  border: none;
 }
 .education h2 {
   text-align: center;
