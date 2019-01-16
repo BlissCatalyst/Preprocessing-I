@@ -73,20 +73,46 @@ h1 {
 }
 
 h2 {
-	font-size: 1.3rem;
-	margin: 0 10px 0;
+	font-size: 1.5rem;
+	margin-bottom: 20px;
 }
 
+li {
+	font-size: 1.3rem;
+	margin: 10px 25px;
+	list-style-type: disc;
+}
 
+/* moduals containing the text */
 .container {
 	max-width: 800px;
 	margin: 0 auto;
+	padding: 25px;
 	background: @container-bg;
 	font-family: 'montserrat', sans-serif;
 }
 
 header {
-	margin: 1rem;
-	border-bottom: 2px dotted @dividerColor;
-	padding: 1rem;
+	border-bottom: 5px dotted @dividerColor;
+	margin-bottom: 20px;
+}
+
+.progress {
+	display: flex;
+	justify-content: space-between;
+
+	.modual {
+		width: 48%;
+		padding: 20px;
+		background: @modual-bg1;
+		border: 5px dotted @dividerColor;
+
+		h2 {
+			font-weight: bold;
+			text-align: center;
+			background: #A1A48C;
+			color: @modual-bg1;
+			padding: 5px;
+		}
+	}
 }
