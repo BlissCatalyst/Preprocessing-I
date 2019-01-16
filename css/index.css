@@ -142,7 +142,9 @@ h1 {
   font-weight: bolder;
   margin-bottom: 20px;
 }
-h2 {
+h2,
+h3 {
+  font-weight: bold;
   font-size: 1.5rem;
   margin-bottom: 20px;
 }
@@ -176,7 +178,6 @@ header {
   border: 5px dotted #737564;
 }
 .progress .modual h2 {
-  font-weight: bold;
   text-align: center;
   background: #A1A48C;
   color: #E6EBC7;
@@ -190,7 +191,6 @@ header {
   border: 5px dotted #737564;
 }
 .experience h2 {
-  font-weight: bold;
   text-align: center;
   background: #A1A48C;
   color: #E2EBA4;
@@ -204,7 +204,6 @@ header {
   border: 5px dotted #737564;
 }
 .education h2 {
-  font-weight: bold;
   text-align: center;
   background: #A1A48C;
   color: #E6EBC7;
