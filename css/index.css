@@ -1,1 +1,234 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+/* my code starts here */
+/* Color Variables */
+/* General */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+h2,
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+li {
+  font-size: 1.3rem;
+  margin: 10px 25px;
+  list-style-type: disc;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px;
+  background: #E9EBD9;
+  font-family: 'montserrat', sans-serif;
+}
+header {
+  border-bottom: 5px dotted #737564;
+  margin-bottom: 20px;
+}
+/* Modual template changes width and background */
+.progress {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.progress .modual {
+  width: 48%;
+  padding: 20px;
+  background: #E6EBC7;
+  border: 5px dotted #737564;
+}
+.progress .modual h2 {
+  text-align: center;
+  background: #A1A48C;
+  color: #E6EBC7;
+  padding: 5px;
+}
+.experience {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 20px;
+  background: #E2EBA4;
+  border: 5px dotted #737564;
+}
+.experience .jobs {
+  display: flex;
+  justify-content: space-between;
+}
+.experience .jobs .job {
+  width: 265px;
+  padding: 0 20px;
+  border-left: 1px solid #737564;
+}
+.experience .jobs .job:first-child {
+  border: none;
+}
+.experience h2 {
+  text-align: center;
+  background: #A1A48C;
+  color: #E2EBA4;
+  padding: 5px;
+}
+.education {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 20px;
+  background: #E6EBC7;
+  border: 5px dotted #737564;
+}
+.education .schools {
+  display: flex;
+  justify-content: space-between;
+}
+.education .schools .school {
+  width: 265px;
+  padding: 0 20px;
+  border-left: 1px solid #737564;
+}
+.education .schools .school:first-child {
+  border: none;
+}
+.education h2 {
+  text-align: center;
+  background: #A1A48C;
+  color: #E6EBC7;
+  padding: 5px;
+}
